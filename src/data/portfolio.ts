@@ -11,7 +11,7 @@ export const profile = {
   } as LocalizedText,
   location: {
     tr: "İstanbul, Türkiye",
-    en: "İstanbul, Turkey",
+    en: "Istanbul, Turkey",
   } as LocalizedText,
   email: "sadikunal@cokunlu.dev",
   availability: {
@@ -19,8 +19,8 @@ export const profile = {
     en: "Open to new opportunities",
   } as LocalizedText,
   intro: {
-    tr: "Kurumsal projelerde yüksek erişilebilirlikli, Event-Driven mimariler kuruyor; karmaşık entegrasyonları (ödeme sistemleri, pazaryerleri) sürdürülebilir, temiz kod tabanlarına dönüştürüyorum.",
-    en: "I design highly available, event-driven architectures for enterprise projects; transforming complex integrations (payment systems, marketplaces) into maintainable, clean codebases.",
+    tr: "Kurumsal projelerde ölçeklenebilir ve asenkron backend sistemleri geliştiriyor; karmaşık ödeme ve pazaryeri entegrasyonları üzerine çalışıyorum. .NET, MongoDB ve PostgreSQL ekosistemlerinde güçlü deneyime sahibim.",
+    en: "I develop scalable and asynchronous backend systems for enterprise projects; I work on complex payment and marketplace integrations. I have strong experience in the .NET, MongoDB, and PostgreSQL ecosystems.",
   } as LocalizedText,
   social: {
     github: "https://github.com/unalman",
@@ -79,7 +79,6 @@ export const about = {
 export type Skill = {
   name: string;
   note?: { tr: string; en: string };
-  /** Proficiency on a 1–5 scale, rendered as small bars. */
   level: number;
 };
 
@@ -306,8 +305,8 @@ export const projects: Project[] = [
   {
     name: "My Personal Website",
     description: {
-      tr: "Tamamen LLM tabanlı araçlar kullanılarak geliştirilmiş, Next.js, TypeScript ve Tailwind CSS ile yazılmış kişisel web sitesi.",
-      en: "A personal website built entirely with LLM-based tools, written with Next.js, TypeScript, and Tailwind CSS.",
+      tr: "LLM tabanlı araçlar kullanılarak geliştirilmiş, Next.js, TypeScript ve Tailwind CSS ile yazılmış kişisel web sitesi.",
+      en: "A personal website built with LLM-based tools, written with Next.js, TypeScript, and Tailwind CSS.",
     },
     stack: [
       "Next.js",

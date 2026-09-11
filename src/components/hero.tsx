@@ -85,9 +85,6 @@ export function Hero() {
               {"    "}Active: <span className="text-accent">active (running)</span>
             </p>
             <p className="text-zinc-500">
-              {"    "}Since: <span className="text-zinc-300">2015</span>
-            </p>
-            <p className="text-zinc-500">
               {"    "}Stack:{" "}
               <span className="text-zinc-300">C# · ASP.NET Core · MongoDB · PostgreSQL</span>
             </p>
