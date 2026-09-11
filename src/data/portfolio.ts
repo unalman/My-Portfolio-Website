@@ -315,6 +315,7 @@ export const projects: Project[] = [
       "Tailwind CSS",
     ],
     status: { tr: "Production", en: "Production" },
+    repo: "https://github.com/unalman/learn-you-a-haskell-tr",
     site: "https://cokunlu.dev/",
   },
   {

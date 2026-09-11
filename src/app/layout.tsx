@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name — Senior Backend Software Engineer",
+  title: "Sadık Ünal Çokünlü — Senior Backend Software Engineer",
   description:
-    "Portfolio of Your Name, a backend software engineer working on distributed systems, APIs and cloud infrastructure.",
+    "Portfolio of Sadık Ünal Çokünlü, a backend software engineer working on distributed systems, APIs and cloud infrastructure.",
 };
 
 export const viewport: Viewport = {
